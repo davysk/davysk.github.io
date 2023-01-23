@@ -1,12 +1,9 @@
-/*
-Author: http://webthemez.com 
-*/
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
-@import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
-/* Reset
----------------------------------*/
+* {
+  font-family: "Montserrat";
+}
+
 ul {
   list-style: none;
 }
@@ -46,7 +43,7 @@ a:active {
 .clearfix:after {
   clear: both;
 }
-/* Common style */
+
 .grid figure {
   position: relative;
   float: left;
@@ -92,8 +89,6 @@ a:active {
   height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -120,10 +115,6 @@ a:active {
   letter-spacing: 1px;
   font-size: 68.5%;
 }
-
-/*---------------*/
-/***** Oscar *****/
-/*---------------*/
 
 figure.effect-oscar {
   background: -webkit-linear-gradient(
@@ -198,11 +189,8 @@ figure.effect-oscar:hover img {
   opacity: 0.4;
 }
 
-/* Styles
----------------------------------*/
 body {
   background: #ffffff;
-  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #888888;
@@ -212,7 +200,6 @@ body {
 h2 {
   font-size: 38px;
   color: #222222;
-  font-family: "Raleway", sans-serif;
   font-weight: normal;
   margin: 0px 0 25px 0;
   text-align: center;
@@ -220,7 +207,6 @@ h2 {
 }
 
 h3 {
-  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #222222;
   font-size: 18px;
@@ -230,7 +216,6 @@ h3 {
 h6 {
   font-size: 16px;
   color: #888888;
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-align: center;
   margin: 0 0 60px 0;
@@ -240,9 +225,6 @@ p {
   line-height: 24px;
   margin: 0;
 }
-
-/* Header Styles
----------------------------------*/
 
 #header_wrapper {
   background: #f9f9f9;
@@ -265,8 +247,6 @@ p {
   display: none;
 }
 
-/* Nav Styles
----------------------------------*/
 #main-nav {
   width: 100%;
   text-align: center;
@@ -382,8 +362,6 @@ p {
   border-color: #feb11e;
   color: #fbfbfb;
 }
-/* Top_content
----------------------------------*/
 
 .top_cont_outer {
   position: relative;
@@ -435,7 +413,6 @@ p {
   font-size: 38px;
   color: #fff;
   margin: 0 0 0px 0;
-  font-family: "Raleway", sans-serif;
   text-align: center;
   line-height: 77px;
   text-transform: initial;
@@ -458,7 +435,6 @@ p {
 
 a.read_more,
 a.read_more2 {
-  font-family: "Raleway", sans-serif;
   display: block;
   font-size: 16px;
   width: 178px;
@@ -491,9 +467,6 @@ a.read_more:hover {
   color: #ed5441;
   border: 1px solid #ed5441;
 }
-
-/* Services
----------------------------------*/
 
 #service {
   padding: 60px 0px;
@@ -543,7 +516,6 @@ a.read_more:hover {
 }
 
 .service_block h3 {
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 24px;
   color: #fff;
@@ -557,9 +529,6 @@ a.read_more:hover {
   color: #fff;
   margin: 0 0 35px 0;
 }
-
-/* Latest Work
----------------------------------*/
 
 #work_outer {
   background: #f9f9f9;
@@ -627,7 +596,6 @@ a.contact_btn {
   font-size: 16px;
   color: #ed5441;
   border-radius: 3px;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   border: 2px solid #ed5441;
   transition: all 0.2s ease-in-out;
@@ -643,9 +611,6 @@ a.contact_btn:hover {
 .input-text {
   background: transparent;
 }
-
-/* Portfolio
----------------------------------*/
 
 #Portfolio {
   padding: 60px 0px;
@@ -718,10 +683,7 @@ img {
   max-width: 100%;
 }
 
-/* no transition on .isotope container */
-
 .isotope .isotope-item {
-  /* change duration value to whatever you like */
   -webkit-transition-duration: 0.6s;
   -moz-transition-duration: 0.6s;
   transition-duration: 0.6s;
@@ -736,9 +698,6 @@ img {
 .page_section.paddind {
   padding-bottom: 60px;
 }
-
-/* Happy Clients
----------------------------------*/
 
 #clients {
   padding: 60px 0px;
@@ -791,9 +750,6 @@ img {
   color: #888888;
 }
 
-/* Clients
----------------------------------*/
-
 .client_logos {
   background: #585858;
   padding: 60px 0;
@@ -824,9 +780,6 @@ img {
 .page_section.team h6 {
   margin-bottom: 40px;
 }
-
-/* About Us
---------------------------- */
 
 .aboutUs-container {
   background-repeat: no-repeat;
@@ -862,7 +815,6 @@ img {
   padding-left: 0px;
 }
 .about-us p {
-  /*font-size: 0.9375em;*/
   line-height: 1.625em;
   padding: 15px 0;
 }
@@ -892,8 +844,6 @@ img {
   margin-left: 0;
 }
 
-/* Team
----------------------------------*/
 .team_section {
   max-width: 993px;
   margin: 0 auto;
@@ -923,17 +873,6 @@ img {
   border-radius: 50%;
   margin: 0px 3px 25px 3px;
 }
-/*
-.team_box_shadow {
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    position: absolute;
-    width: 100%;
-    height: 26%;
-    z-index: 10;
-    bottom: 0px;
-} */
 
 .team_box_shadow a {
   display: block;
@@ -1037,9 +976,6 @@ img {
 #aboutUs {
   padding: 60px 0 60px;
 }
-
-/* Contact
----------------------------------*/
 .page_section.contact {
   padding: 90px 0 100px;
 }
@@ -1247,9 +1183,6 @@ img {
   color: #222;
 }
 
-/* Footer
----------------------------------*/
-
 .footer_wrapper {
   background: #2d2d2d;
 }
@@ -1278,9 +1211,6 @@ img {
 .footer_bottom span a:hover {
   color: #fff;
 }
-
-/* Animation Timers
----------------------------------*/
 .delay-02s {
   animation-delay: 0.2s;
   -webkit-animation-delay: 0.2s;
@@ -1331,10 +1261,6 @@ img {
   -webkit-animation-delay: 1.2s;
 }
 
-/*new_profolio*/
-
-/* Portfolio */
-
 .container.portfolio_title {
   padding-bottom: 0px;
 }
@@ -1342,8 +1268,6 @@ img {
 #portfolio {
   padding: 60px 0 40px;
 }
-
-/* Portfolio Filters */
 
 #filters {
   margin-top: 10px;
@@ -1389,7 +1313,6 @@ img {
 
 .section-title h2 {
   color: #222222;
-  font-family: "Raleway", sans-serif;
   font-size: 34px;
   letter-spacing: -1px;
   margin: 0 0 15px;
@@ -1399,14 +1322,11 @@ img {
 .section-title span {
   display: block;
   color: #888888;
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin: 0 0 60px;
   text-align: center;
 }
-
-/* Portfolio Items */
 
 #portfolio_wrapper {
   position: relative;
@@ -1557,8 +1477,6 @@ img {
   transition: opacity 0.3s 0.2s, margin-top 0.3s 0.2s;
 }
 
-/* Portfolio Isotope Transitions */
-
 .isotope,
 .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
@@ -1593,8 +1511,6 @@ img {
   -o-transition-duration: 0s;
   transition-duration: 0s;
 }
-
-/* Portfolio Expander */
 
 #project_container {
   display: none;
@@ -1654,7 +1570,6 @@ img {
 .project-section-title h1 {
   margin-bottom: 5px !important;
   letter-spacing: 1px;
-  font-family: "Raleway", sans-serif;
 }
 
 .project-page {
@@ -1664,8 +1579,6 @@ img {
   left: 0;
   padding-bottom: 40px;
 }
-
-/* Portfolio*/
 
 .project-image-slider .bx-wrapper .bx-next {
   background: url("images/project_slider_right.png") no-repeat;
@@ -1698,8 +1611,6 @@ img {
   z-index: 100;
 }
 
-/* Portfolio Normal Expander */
-
 .project-description {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -1727,8 +1638,6 @@ img {
   text-transform: uppercase;
   margin-bottom: 5px;
 }
-
-/* Portfolio FullScreen Expander */
 
 #cycle-loader {
   height: 32px;
@@ -1874,9 +1783,6 @@ div.mc-image {
   padding: 0;
 }
 
-/*
-   Media Queries
---------------------------- */
 @media (min-width: 768px) and (max-width: 1200px) {
   .aboutUs-container {
     background-repeat: no-repeat;
