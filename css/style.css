@@ -218,7 +218,7 @@ h6 {
   color: #888888;
   font-weight: 400;
   text-align: center;
-  margin: 0 0 60px 0;
+  margin: 0 0 50px 0;
 }
 
 p {
@@ -699,86 +699,12 @@ img {
   padding-bottom: 60px;
 }
 
-#clients {
-  padding: 60px 0px;
-}
-
-.client_area {
-  width: 960px;
-  margin: 0px auto;
-}
-
-.client_section {
-  padding: 35px 0 0 0;
-}
-
-.client_section.btm {
-  padding: 20px 0 0 0;
-}
-
-.client_profile {
-  float: left;
-  text-align: center;
-}
-
-.client_profile.flt {
-  float: right;
-}
-
-.client_profile_pic {
-  border-radius: 50%;
-  border: 2px solid #f5f5f5;
-  margin: 0 0 15px 0;
-  width: 220px;
-  height: 220px;
-}
-
-.client_profile_pic img {
-  border-radius: 50%;
-  border: 3px solid #f5f5f5;
-}
-
-.client_profile h3 {
-  font-size: 18px;
-  color: #49b5e7;
-  margin: 0 0 0 0;
-}
-
-.client_profile span {
+.img-responsive {
   display: block;
-  font-size: 16px;
-  color: #888888;
-}
-
-.client_logos {
-  background: #585858;
-  padding: 60px 0;
-  margin-top: 60px;
-}
-
-.client_logos ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.client_logos ul li {
-  display: inline;
-  margin: 0 25px;
-}
-
-.client_logos ul a {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-.page_section.team {
-  padding: 60px 0;
-}
-
-.page_section.team h6 {
-  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding: 0 0 0px 0;
 }
 
 .aboutUs-container {
@@ -787,16 +713,7 @@ img {
   background-size: auto 100%;
   background-position-y: 70px;
 }
-#about-us .read-more {
-  border: 1px solid #ed5441;
-  color: #1a1a1a;
-}
 
-#about-us .read-more:hover {
-  background-color: #e74c3c;
-  border: 1px solid #e74c3c;
-  color: #fff;
-}
 .about-us-post-container {
   background-repeat: no-repeat;
   background-position: right;
@@ -806,9 +723,7 @@ img {
   margin-top: 30px;
   margin-bottom: 0;
 }
-.about-us h3 {
-  font-size: 28px;
-}
+
 .points {
   margin-bottom: 10px;
   font-size: 14px;
@@ -840,144 +755,11 @@ img {
   top: 6px;
 }
 
-.about-us-link a:first-child {
-  margin-left: 0;
-}
-
-.team_section {
-  max-width: 993px;
-  margin: 0 auto;
-}
-
-.team_area {
-  width: 30.66%;
-  margin-right: 3.82979%;
-  overflow: hidden;
-  text-align: center;
-  float: left;
-}
-
-.team_area span {
-  margin-bottom: 24px;
-  display: block;
-}
-
-.team_area:nth-of-type(3n + 0) {
-  margin: 0;
-}
-
-.team_box {
-  width: auto;
-  height: auto;
-  position: relative;
-  border-radius: 50%;
-  margin: 0px 3px 25px 3px;
-}
-
-.team_box_shadow a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.team_box:hover .team_box_shadow {
-  box-shadow: inset 0px 0px 0px 148px rgba(17, 17, 17, 0.8);
-}
-
-.team_box:hover ul {
-  display: block;
-  opacity: 1;
-}
-
-.team_box img {
-  display: block;
-  border-radius: 0%;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.team_box ul {
-  display: block;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: absolute;
-  left: 0;
-  top: 88%;
-  width: 100%;
-  text-align: center;
-  margin-top: -14px;
-  z-index: 15;
-  transition: all 0.6s ease-in-out;
-  -moz-transition: all 0.6s ease-in-out;
-  -webkit-transition: all 0.6s ease-in-out;
-}
-
-.team_box ul li {
-  display: inline-block;
-  margin: 0 11px;
-  width: 34px;
-  border-radius: 50%;
-  background: #fff;
-  padding: 10px 0 4px;
-  margin-bottom: 5px;
-}
-
-.team_box ul li a {
-  display: inline-block;
-  font-size: 18px;
-  color: #232323;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
-
-.team_box ul li a:hover,
-.team_box ul li a:focus {
-  text-decoration: none;
-}
-
-.team_box ul li a.fa-github:hover {
-  color: #fafafa;
-}
-
-.team_box ul li a.fa-linkedin:hover {
-  color: #0077b5;
-}
-
-.team_box ul li a.fa-codepen:hover {
-  color: white;
-}
-
-.team_box ul li a.fa-instagram:hover {
-  color: #e4405f;
-}
-.img-circle {
-  border-radius: 50%;
-}
-.centered {
-  text-align: center;
-}
-#team .fa {
-  width: 30px;
-  height: 30px;
-  margin: 0 3px;
-  border-radius: 100%;
-  font-size: 15px;
-  line-height: 30px;
-  outline: 0;
-  color: #ce1139;
-  background-color: #fff;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  border: 1px solid #ce1139;
-}
 #aboutUs {
   padding: 60px 0 60px;
 }
 .page_section.contact {
-  padding: 90px 0 100px;
+  padding: 60px 0 40px;
 }
 
 .contact_section {
@@ -1124,63 +906,6 @@ img {
 
 .gplus a:hover {
   color: #e4405f;
-}
-
-.form {
-  margin: 0 66px 0 30px;
-}
-
-.input-text {
-  padding: 15px 16px;
-  border: 1px solid #ccc;
-  width: 100%;
-  height: 50px;
-  display: block;
-  border-radius: 4px;
-  font-size: 15px;
-  color: #aaa;
-  margin: 0 0 15px 0;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
-
-.input-text:focus {
-  border: 1px solid #fff;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(124, 197, 118, 0.3);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(124, 197, 118, 0.3);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(124, 197, 118, 0.3);
-}
-
-.input-text.text-area {
-  height: 230px;
-  resize: none;
-  overflow: auto;
-}
-
-.input-btn {
-  width: 175px;
-  height: 50px;
-  letter-spacing: 0px;
-  background: #0285ff;
-  border-radius: 3px;
-  color: #ffffff;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 600;
-  border: 0px;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
-
-.input-btn:hover {
-  background: #fff;
-  color: #222;
 }
 
 .footer_wrapper {
@@ -1790,15 +1515,20 @@ div.mc-image {
     background-size: auto 59%;
     background-position-y: 150px;
   }
+
+  .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 0 0 70px 0;
+  }
 }
 @media (max-width: 768px) {
   .navStyle {
     float: right;
     width: auto;
     text-align: center;
-  }
-  .aboutUs-container {
-    background-image: none;
   }
   p {
     font-size: 14px;
@@ -1820,14 +1550,17 @@ div.mc-image {
     margin: 0 0 9px 0;
   }
   .inner_section {
-    padding: 20px 0 20px;
+    padding: 0px 0 20px;
   }
-  #aboutUs img {
-    margin-bottom: 20px;
+
+  h6 {
+    margin: 0;
   }
   #aboutUs h3 {
     font-size: 26px;
-    line-height: 22px;
+  }
+  .img-responsive {
+    padding-bottom: 30px;
   }
   .service_block h3 {
     font-size: 16px;
@@ -1839,23 +1572,6 @@ div.mc-image {
   }
   #filters ul {
     padding-left: 0px;
-  }
-  .form {
-    margin: 0 18px;
-  }
-  .page_section.team {
-    padding: 40px 0;
-  }
-  #clients {
-    padding: 40px 0;
-  }
-  .client_logos ul li {
-    display: inline;
-    margin: 0 25px;
-    padding: 11px 0;
-    display: inline-block;
-  }
-  .social_links li {
   }
   .contact_section {
     margin: 0;
@@ -1917,9 +1633,6 @@ div.mc-image {
     margin-bottom: 0px;
     float: initial;
     width: 100%;
-  }
-  .team_area {
-    width: 99%;
   }
   .read_more2 {
     display: none;
