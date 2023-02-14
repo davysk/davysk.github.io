@@ -156,7 +156,7 @@ figure.effect-oscar h2 {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
-  color: #a3a3a3;
+  color: #cbc5ea;
 }
 
 figure.effect-oscar figcaption::before,
@@ -413,7 +413,6 @@ p {
   width: 90px;
   height: 85px;
   margin: 0px auto 25px;
-  border-bottom: 1px dashed #cbc5ea;
 }
 
 .service_icon span {
