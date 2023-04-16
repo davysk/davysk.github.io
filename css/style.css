@@ -486,29 +486,6 @@ p {
   background: #fafafa;
 }
 
-a.contact_btn {
-  background: #fff;
-  text-transform: uppercase;
-  display: block;
-  width: 176px;
-  height: 49px;
-  text-align: center;
-  line-height: 49px;
-  font-size: 16px;
-  color: #ed5441;
-  border-radius: 3px;
-  font-weight: 600;
-  border: 2px solid #ed5441;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-}
-
-a.contact_btn:hover {
-  background: #ed5441;
-  color: #fff;
-}
-
 .input-text {
   background: transparent;
 }
